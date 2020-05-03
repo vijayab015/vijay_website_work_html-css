@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/mystyle.css">
     <script src="js/myScript.js"></script>
     </head>
-    <body>
+    <body id="contact">
     <div class="container">
         <header class="header">
        <a  class="link-title" href="/"> Vijay' Website </a>
@@ -23,7 +23,38 @@
         </aside>
         <article class="main">
             
-             Stay tuned Comming Soon......
+            
+            
+            <h1 id="heading"> Contact </h1>
+            
+            <div id="form">
+                <form action="process.php">
+                    <p>
+                    <label>Name:</label>
+                    <input type="text" name="name" placeholder="Your Name">
+                    </p>
+                    
+                    <p>
+                    <label for="name">Email:</label>
+                    <input type="text" name="email" placeholder= "Emil ID">
+                    </p>
+                    <p>
+                    <label for="name">Subject:</label>
+                    <input type="text" name="subject" placeholder="Subject">
+                        </p>
+                    <p>
+                    
+                    <label for="name">Message:</label>
+                    <textarea id="message" name="messge" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </p>
+                
+                <p>
+                    <input id="submit "type="submit" name="submit" value="Send Message">
+                    </p>
+                </form>
+            
+            </div>
+            
         
         </article>
          <footer>

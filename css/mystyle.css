@@ -6,11 +6,12 @@ body{
     width: 780px;
     margin: 0 auto;
     background: #FFF;
+    box-shadow: 0px 9px 13px 5px;
 }
 
 .header{
     padding: 45px 0px 20px 40px;
-    border: 2px solid black;
+    
     
 }
 .menu{
@@ -107,9 +108,31 @@ footer a{
 }
 
 
+/* ---------------- Contact Page Style----------------*/
+#contact #form
+{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#contact #heading{
+    text-align: center;
+    padding: 15px;
+}
 
+#contact #form input{
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+}
 
-
+#contact #form #message{
+    width: 100%;
+    border-radius: 5px;
+    background: #D6D6D6;
+}
 
 
 
